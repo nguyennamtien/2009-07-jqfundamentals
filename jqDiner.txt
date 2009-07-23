@@ -1,0 +1,43 @@
+restaurant site
+
+- home page 
+ 	- slideshow
+	- feedback form
+	- twitter w/jsonp (http://twitter.com/status/user_timeline/rmurphey.json?count=3&callback=?)
+	- daily specials (ajax/dropdown)
+	- suckerfish menus
+	- search autocomplete
+	- ajax load additional content
+	- style switcher
+	- collapsible modules
+- menus
+	- tabs (lunch, dinner, brunch)
+		- history
+	- rating menu items
+	- modal showing menu item detail
+- blog page
+	- read more
+- menu editor
+	- table sorting
+	- table striping
+	- edit in place
+- ordering takeout
+	- validation
+	- calculator
+	- decision tree
+- staff
+	- bios (gtm)
+	- editor (send module type and id)
+
+
+- general
+	- bind behavior based on body class
+	
+- plugins
+	- innerfade
+	- validation
+	- table sorter http://tablesorter.com/docs/
+	- history
+	- lightbox
+	- ajaxForm
+	- 
