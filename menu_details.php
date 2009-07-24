@@ -6,19 +6,23 @@ $page = 'menu';
 
 $data = array(
 	'tomatoes' => array(
+		'name' => 'tomatoes',
 		'description' => 'Tomatoes are yummy',
 		'image' => '/images/tomatoes.jpg'
 	),
 	'onions' => array(
+		'name' => 'Onions',
 		'description' => 'Onions are yummy',
 		'image' => '/images/onions.jpg'
 	),
 	'curry' => array(
+		'name' => 'Curry',
 		'description' => 'Curry is yummy',
 		'image' => '/images/curry.jpg'
 	),
 	'stirfry' => array(
-		'description' => 'Stiry fry is yummy',
+		'name' => 'Stir Fry',
+		'description' => 'Stir fry is yummy',
 		'image' => '/images/stirfry.jpg'
 	)
 );
@@ -38,7 +42,7 @@ if ($xhr) {
 } else {
 	?>
 	
-	<h1><? echo ucwords($item); ?></h1>
+	<h1><? echo $data[$item]['name']; ?></h1>
 	<img src="<? echo $data[$item]['image']?>" alt="" />
 	<p><? echo $data[$item]['description']?></p>
 	</div>
