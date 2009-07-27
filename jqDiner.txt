@@ -13,7 +13,6 @@ restaurant site
 - menus
 	- tabs (lunch, dinner, brunch)
 		- history
-	- rating menu items
 	- modal showing menu item detail
 - blog page
 	- read more
@@ -23,7 +22,7 @@ restaurant site
 	- edit in place
 - ordering takeout
 	- validation
-	- calculator
+	- calculator (toFixed)
 	- decision tree
 - staff
 	- bios (gtm)

@@ -1,9 +1,10 @@
 /* general */
 h1 {
 	font-size: 250%;
-	margin: 5px 0;
+	margin: 5px 0 10px 0;
 }
 
+legend,
 h2 {
 	font-size: 150%;
 	margin: 5px 0;
@@ -29,6 +30,10 @@ a:visited {
 	color: #a00;
 }
 
+.template {
+	display: none;
+}
+
 /* forms */
 
 form li {
@@ -40,6 +45,8 @@ input.input_text {
 	border: 1px solid #ccc;
 	padding: 4px;
 	width: 95%;
+	font-size: 120%;
+	font-family: Arial, sans-serif;
 }
 
 label {
@@ -48,7 +55,17 @@ label {
 	margin: 0 0 5px 0;
 }
 
+li.checkbox {
+	margin: 0 0 15px 0;
+}
 
+li.checkbox label {
+	display: inline;
+}
+
+fieldset {
+	margin: 0 0 20px 0;
+}
 
 /* page */
 body {
@@ -83,8 +100,8 @@ body {
 
 /* navigation */
 #logo {
-	font-size: 300%;
-	margin: 0 0 20px 0;
+	font-size: 400%;
+	margin: 0 0 40px 0;
 }
 
 #logo a {
@@ -169,6 +186,21 @@ body {
 	margin: 25px 0;
 }
 
+#main table {
+	border-collapse: collapse;
+}
+
+#main table td,
+#main table th {
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+
+#main table th {
+	background-color: #ccc;
+	font-weight: bold;
+}
+
 /* sidebar */
 #sidebar .module {
 	border: 1px solid #ccc;
@@ -209,3 +241,4 @@ body {
 #twitter {
 	display: none;
 }
+

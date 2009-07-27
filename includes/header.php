@@ -10,9 +10,6 @@
 	<link href="/css/style.css" rel="stylesheet" type="text/css" media="all" />
 	
 	<script src="/js/jquery-1.3.2.min.js"></script>
-	<? foreach ($scripts as $script) {
-		?><script src="<?=$script?>"></script><?
-	} ?>
 </head>
 
 <body>
