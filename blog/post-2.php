@@ -2,8 +2,8 @@
 $xhr = isset($_SERVER['HTTP_X_REQUESTED_WITH']) &&
 	strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest';
 	
-$title = 'jQ :: Blog Post 2';
-$page = 'home';
+$title = 'Blog Post 2';
+$page = 'blog';
 ?>
 
 <? if (!$xhr) { 

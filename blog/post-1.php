@@ -3,7 +3,7 @@ $xhr = isset($_SERVER['HTTP_X_REQUESTED_WITH']) &&
 	strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest';
 	
 $title = 'Blog Post 1';
-$page = 'home';
+$page = 'blog';
 ?>
 
 <? if (!$xhr) { 

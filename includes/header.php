@@ -12,7 +12,7 @@
 	<script src="/js/jquery-1.3.2.min.js"></script>
 </head>
 
-<body>
+<body class="<?=$page?>">
 	<div id="header">
 		<div id="logo"><a href="/">jQ Diner</a></div>
 		<ul id="nav">

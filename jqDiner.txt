@@ -1,15 +1,18 @@
 restaurant site
 
 - home page 
+	- make entire menu li clickable
+	- hover class on menu items ('hover')
+	- add a menu item
+	- suckerfish menus
+	- collapsible modules
  	- slideshow
 	- feedback form
 	- twitter w/jsonp (http://twitter.com/status/user_timeline/rmurphey.json?count=3&callback=?)
 	- daily specials (ajax/dropdown)
-	- suckerfish menus
 	- search autocomplete
 	- ajax load additional content
 	- style switcher
-	- collapsible modules
 - menus
 	- tabs (lunch, dinner, brunch)
 		- history
@@ -39,4 +42,5 @@ restaurant site
 	- history
 	- lightbox
 	- ajaxForm
-	- 
+	- color
+	- easing

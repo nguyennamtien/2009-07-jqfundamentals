@@ -2,7 +2,7 @@
 $xhr = isset($_SERVER['HTTP_X_REQUESTED_WITH']) &&
 	strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest';
 	
-$page = 'menu';
+$page = 'menu_details';
 
 $data = array(
 	'tomatoes' => array(

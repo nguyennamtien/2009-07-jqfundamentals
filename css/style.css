@@ -121,6 +121,14 @@ body {
 	height: 20px;
 }
 
+#nav li.selected {
+	background-color: red;
+}
+
+#nav li.hover {
+	background-color: blue;
+}
+
 #nav li ul {
 	position: absolute;
 	top: 30px;
