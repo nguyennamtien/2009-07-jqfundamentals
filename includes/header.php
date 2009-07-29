@@ -10,6 +10,7 @@
 	<link href="/css/style.css" rel="stylesheet" type="text/css" media="all" />
 	
 	<script src="/js/jquery-1.3.2.min.js"></script>
+	<script src="/js/sandbox.js"></script>
 </head>
 
 <body class="<?=$page?>">
