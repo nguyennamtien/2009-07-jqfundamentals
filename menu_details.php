@@ -35,20 +35,14 @@ $title = 'Menu Details :: ' . ucwords($item);
 <? if (!$xhr) { 
 	include('includes/header.php'); 
 	?><div id="main"><?
-} 
-
-if ($xhr) {
-	echo json_encode($data[$item]);
-} else {
-	?>
+} ?>
 	
 	<h1><? echo $data[$item]['name']; ?></h1>
 	<img src="<? echo $data[$item]['image']?>" alt="" />
 	<p><? echo $data[$item]['description']?></p>
-	</div>
 	
-	<?
-
+<? if (!$xhr) {
+	?></div><?
 	include('includes/sidebar.php'); 
 	include('includes/footer.php');
 } ?>

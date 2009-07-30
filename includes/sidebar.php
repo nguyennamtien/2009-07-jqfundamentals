@@ -1,9 +1,9 @@
 <div id="sidebar">
 	<div class="module" id="search">
+		<h4>Search</h4>
 		<form action="/search.php" method="get">
 			<ul>	
 				<li>
-					<label for="search">Search</label>
 					<input type="text" name="search" id="search_input" class="input_text" />
 				</li>
 				<li class="buttons">
@@ -13,6 +13,7 @@
 		</form>
 	</div>
 	<div class="module" id="feedback">
+		<h4>Feedback</h4>
 		<form action="/feedback/index.php" method="post">
 			<ul>	
 				<li>

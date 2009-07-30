@@ -65,30 +65,5 @@ $page = 'home';
 	</div>
 </div>
 
-<script type="text/javascript" charset="utf-8">
-	$(document).ready(function() {
-		$('#nav li')
-			.hover(function() {
-				$(this)
-					.addClass('hover')
-					.find('ul').slideDown();
-				
-			}, function() {
-				$(this)
-					.removeClass('hover')
-					.find('ul').slideUp();
-			})
-			.click(function() {
-				var $li = $(this);
-			
-				$('a', $li); // $li.find('a');
-				
-				var href = $li.find('a').attr('href');
-				window.location.href = href;
-			})
-			.css({cursor:'pointer'});
-	});
-</script>
-
 <? include('includes/sidebar.php'); ?>
 <? include('includes/footer.php'); ?>

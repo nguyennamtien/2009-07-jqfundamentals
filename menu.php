@@ -41,5 +41,7 @@ $title = 'Menus';
 	</ul>
 </div>
 
+<script src="<?=$js_dir?>/solutions/modal.js"></script>
+
 <? include('includes/sidebar.php'); ?>
 <? include('includes/footer.php'); ?>

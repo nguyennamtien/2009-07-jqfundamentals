@@ -1,10 +1,22 @@
+thursday:
+
+- animation (relative)
+- opacity
+- ternary operator
+- collapsible modules
+- home page slideshow
+- twitter w/jsonp (http://twitter.com/status/user_timeline/rmurphey.json?count=3&callback=?)
+- daily specials
+- detect ajax in php w/request header
+- search autocomplete
+- modal plugin (menu item detail)
+- hoverclass plugin
+- ajax form submission
+- modal.initialized || modal.init()
+
 restaurant site
 
 - home page 
-	- make entire menu li clickable
-	- hover class on menu items ('hover')
-	- add a menu item
-	- suckerfish menus
 	- collapsible modules
  	- slideshow
 	- feedback form
