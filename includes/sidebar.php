@@ -35,5 +35,14 @@
 		</form>
 	</div>
 	
-	<div class="module" id="twitter"></div>
+	<div class="module" id="twitter">
+		<h4>Twitter</h4>
+		<ul>
+			<li class="template">
+				<span class="tweet"></span>
+				<span class="username"></span>
+				<span class="date"></span>
+			</li>
+		</ul>
+	</div>
 </div>

@@ -23,7 +23,7 @@ $(document).ready(function() {
 	// $('#foo').insertAfter('h1');
 	
 
-
+	/*
 	var $p = $('<p>a new paragraph</p>');
 	$p.css({color:'red'});
 
@@ -31,4 +31,25 @@ $(document).ready(function() {
 		$p.appendTo('body');
 		$(this).empty();
 	});
+	*/
+	
+	
+	$('#foo').css('cursor','pointer');
+	
+	var myCss = {
+		cursor:'pointer', 
+		color:'red', 
+		textAlign:'right', 
+		opacity:0.5
+	};
+	
+	$('#foo').css(myCss);
+	
+	{
+		'foo' : 'bar'
+	}
+	
+
+	
+	
 });

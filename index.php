@@ -64,6 +64,7 @@ $page = 'home';
 		</div>
 	</div>
 </div>
+<script src="<?=$js_dir?>/solutions/slideshow.js"></script>
 
 <? include('includes/sidebar.php'); ?>
 <? include('includes/footer.php'); ?>

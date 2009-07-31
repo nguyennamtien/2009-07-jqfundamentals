@@ -2,8 +2,12 @@ var modal = {
 	initialized : false,
 	
 	init : function() {
-		modal.$m = $('<div id="modal"/>').appendTo('body').hide();
-		modal.$c = $('<div id="modal_content"/>').appendTo(modal.$m);
+		modal.$m = $('<div id="modal"/>')
+			.appendTo('body')
+			.hide();
+			
+		modal.$c = $('<div id="modal_content"/>')
+			.appendTo(modal.$m);
 
 		modal.$o = $('<div id="overlay"/>')
 			.appendTo('body')

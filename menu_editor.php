@@ -51,5 +51,26 @@ $title = 'Menu Editor';
 	<input type="button" value="Add item" />
 </div>
 
+<script type="text/javascript" charset="utf-8">
+	$('table tr').hover(
+		function() {
+			$(this).css({backgroundColor: '#ccc'});
+		},
+		function() {
+			$(this).css({backgroundColor: '#fff'});
+		}
+		
+	)
+	.css({cursor:'pointer'})
+	.click(function() {
+		window.location.href = $(this)
+			.find('a.post:first').attr('href');
+	});
+	
+	$('table tr a.post').click(function(e) {
+		e.preventDefault();
+	});
+</script>
+
 <? include('includes/sidebar.php'); ?>
 <? include('includes/footer.php'); ?>
