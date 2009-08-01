@@ -1,12 +1,3 @@
-;
-
-var foo = { 'bar' : 'bam' }; 
-var bar = $.extend({}, foo, { 'bar': 'baz', 'biz' : 'bop' });
-console.log(foo);
-console.log(bar);
-
-
-
 (function($) {
 	$.fn.hoverClass = function(c) {
 		var c = c ? c : $.fn.hoverClass.defaults.c;
