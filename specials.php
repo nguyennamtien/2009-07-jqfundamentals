@@ -7,7 +7,7 @@ $page = 'home';
 ?>
 
 <? if (!$xhr) { 
-	include('../includes/header.php'); 
+	include('includes/header.php'); 
 	?><div id="main"><?
 	?><div id="specials"><?
 } ?>
@@ -46,6 +46,6 @@ if (!$xhr) {
 	?></div><?
 	?></div><?
 
-	include('../includes/sidebar.php'); 
-	include('../includes/footer.php');
+	include('includes/sidebar.php'); 
+	include('includes/footer.php');
 } ?>

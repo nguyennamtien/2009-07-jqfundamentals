@@ -30,11 +30,11 @@ $page = 'home';
 		<h2>Blog</h2>
 		<ul>
 			<li>
-				<h3><a href="/blog/post-1.php">Blog post 1</a></h3>
+				<h3><a href="blog/post-1.php">Blog post 1</a></h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</li>
 			<li>
-				<h3><a href="/blog/post-2.php">Blog post 2</a></h3>
+				<h3><a href="blog/post-2.php">Blog post 2</a></h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</li>
 		</ul>
@@ -43,7 +43,7 @@ $page = 'home';
 	<div class="module" id="specials">
 		<h2>Specials</h2>
 		<p>Choose the day of the week to see the specials:</p>
-		<form action="/specials/index.php" method="get">
+		<form action="specials.php" method="get">
 			<ul>	
 				<li>
 					<select name="day">
@@ -57,14 +57,8 @@ $page = 'home';
 				</li>
 			</ul>
 		</form>
-		<div class="template special">
-			<img src="/images/special.jpg" alt="" />
-			<h3>Tuesday</h3>
-			<p>This is the text about the special.</p>
-		</div>
 	</div>
 </div>
-<script src="<?=$js_dir?>/solutions/slideshow.js"></script>
 
 <? include('includes/sidebar.php'); ?>
 <? include('includes/footer.php'); ?>

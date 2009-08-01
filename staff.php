@@ -51,7 +51,5 @@ $title = 'Staff';
 	</ul>
 </div>
 
-<script src="<?=$js_dir?>/solutions/staffSwitcher.js"></script>
-
 <? include('includes/sidebar.php'); ?>
 <? include('includes/footer.php'); ?>

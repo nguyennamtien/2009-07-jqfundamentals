@@ -1,8 +1,8 @@
 <?
 /* change these if you are not running this in the root dir of a domain */
 global $js_dir, $css_dir;
-$js_dir = '/js';
-$css_dir = '/css';
+$js_dir = 'js';
+$css_dir = 'css';
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
